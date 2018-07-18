@@ -1,0 +1,35 @@
+.content-fim-batalha {
+  position: fixed;
+  left: 600px;
+  top: 180px;
+  width: 500px;
+  height: 500px;
+  background: white;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagemFim {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.voltar-dashboard {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}

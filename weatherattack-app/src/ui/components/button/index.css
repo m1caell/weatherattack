@@ -1,0 +1,13 @@
+button {
+  background-color: #2285a4;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px 2px #d3d3d3;
+}

@@ -1,0 +1,111 @@
+.historico-de-batalhas {
+  width: 100%;
+  height: 148px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.historico-de-batalhas > h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 14px;
+  color: #ababab;
+  margin: 11px;
+}
+
+.content-historico-batalhas {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.historico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 221px;
+  height: 92px;
+  background: #fafafa;
+  margin: 0 20px 0 20px;
+}
+
+.evento-historico {
+  width: 100%;
+  height: 92px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.logId {
+  position: absolute;
+  top: 1;
+  font-size: 10px;
+  color: #aaaaaa;
+  top: 0;
+  left: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.evento-historico div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-desafiante-evento-combate,
+.imagem-desafiado-evento-combate {
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+}
+
+.borda-verde-combate {
+  border: 3px solid #96be40;
+  border-radius: 75px;
+}
+
+.borda-vermelha-combate {
+  border: 3px solid #c35959;
+  border-radius: 75px;
+}
+
+.letras-vermelha-combate {
+  color: #c35959;
+  margin-top: 3px;
+}
+
+.letras-verde-combate {
+  color: #96be40;
+  margin-top: 3px;
+}
+
+.vs-evento {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  color: #aaaaaa;
+}
+
+.vs-separador {
+  font-size: 18px;
+}
+
+.hora-evento {
+  font-size: 7px;
+}

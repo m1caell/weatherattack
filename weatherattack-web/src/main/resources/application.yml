@@ -1,0 +1,34 @@
+server:
+  port: 8081
+
+security:
+  header:
+    prefix: "Bearer "
+  jwt:
+    secret: "crescer-2018-1-java-jwt"
+    expiration: 86400000 # 1 dia em milisegundos
+  public:
+    path: "/public/**"
+
+spring:
+  datasource:
+    #url: jdbc:oracle:thin:@localhost:1521:xe
+    url: jdbc:postgresql://localhost:5432/WEATHERATTACK
+  
+    username: WEATHERATTACK
+    password: WEATHERATTACK
+
+    #driver-class-name: oracle.jdbc.OracleDriver
+    driverClassName: org.postgresql.Driver
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+api:
+  open.weather.map:
+    key: a5d761aabd3b185bfd5d459526d470a7
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql: trace

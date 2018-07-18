@@ -1,0 +1,72 @@
+.pagina-home {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  color: #474747;
+  margin: 18px 0px 13px 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #efefef;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.conteudo-home {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.dashboard-em-home {
+  width: 95%;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  background: red;
+}
+
+.historico-em-home {
+  width: 95%;
+  margin: 0px 32px;
+  margin-bottom: 32px;
+}
+
+.tempo {
+  display: flex;
+}
+
+.tempo-home {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.tempo-home .tempo-blur {
+  display: none;
+}
+
+.tempo-home .dados {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 16px;
+}
+
+.tempo-home .dados-wrapper > .icone {
+  width: 63px;
+  height: 63px;
+  /*margin-left: -130px;*/
+  margin-right: 20px;
+}

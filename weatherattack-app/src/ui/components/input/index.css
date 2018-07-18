@@ -1,0 +1,85 @@
+input,
+label {
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+  display: block;
+  padding: 5px;
+  border: none;
+  outline: none;
+  cursor: text;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input.input {
+  border-radius: 2px;
+  border: none;
+  width: 299px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0);
+  transition: padding-top 0.2s ease, margin-top 0.2s ease;
+  margin-top: 10px;
+}
+
+input.input + label {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  width: 309px;
+  height: 50px;
+  top: -10px;
+  border-top: 1px solid #999;
+  transition: width 0.4s ease;
+  height: 0px;
+  outline: none;
+}
+
+input.input:focus + label {
+  border-top: 2px solid #247b7b;
+}
+
+input.input:focus + label > span,
+input.input:valid + label > span {
+  top: -50px;
+  color: #247b7b;
+  display: block;
+}
+
+input.input:valid + label {
+  top: -10px;
+  left: 5px;
+  border-top: 2px solid #247b7b;
+}
+
+input.input:not([value=""]) + label > span {
+  /* color: red; */
+  top: -50px;
+  color: #247b7b;
+}
+
+input.input:valid + label {
+  top: -10px;
+}
+
+input.input:invalid {
+  box-shadow: none;
+}
+
+input.input + label > span {
+  position: absolute;
+  color: grey;
+  top: -25px;
+  left: 0px;
+  z-index: 0;
+  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+}
+
+.select {
+  color: black;
+}

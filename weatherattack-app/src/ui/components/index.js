@@ -1,0 +1,15 @@
+export { Cadastro } from "./cadastro";
+export { Input } from "./input";
+export { Button } from "./button";
+export { Login } from "./login";
+export { Link } from "./link";
+export { Tempo } from "./tempo";
+export { Desafio } from "./desafio";
+export { UsuariosConectados } from "./usuariosConectados";
+export { NotificacaoConviteBatalha } from "./notificacaoConviteBatalha";
+export { NotificacaoConviteRecusado } from "./notificacaoConviteRecusado";
+export { HistoricoDeBatalhas } from "./historicoDeBatalhas";
+export { CombateComp } from './combate'
+export { FimDaBatalha } from './fimDaBatalha';
+export { CardOnline } from './cardOnline';
+export { Loading } from './loader'

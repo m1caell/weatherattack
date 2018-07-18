@@ -1,0 +1,50 @@
+.content-notificacao-batalha-recusada {
+  background: gray;
+  font-family: Roboto;
+  background: white;
+  position: fixed;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 3px;
+  top: 110px;
+  right: 80px;
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
+}
+
+.desafio-jogador {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 17px;
+  margin-bottom: 10px;
+}
+
+.desafio-recusado {
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  color: #dc143c;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.jogador {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img {
+  margin-right: 15px;
+}
+
+.text-jogador {
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #333333;
+  font-size: 30px;
+}

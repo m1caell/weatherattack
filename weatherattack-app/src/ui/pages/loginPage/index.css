@@ -1,0 +1,131 @@
+/* Aqui quando a tela for menor que 600px */
+@media only screen and (max-width: 600px) {
+  .container-login {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-login-left {
+    border-bottom: 110vh solid #ffffff;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-login-inside {
+    width: 425px;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .logo {
+    background-image: url("../../../img/Logo.svg");
+    background-size: cover;
+    width: 205px;
+    height: 211px;
+    margin-bottom: 30px;
+  }
+
+  .logo-crescer {
+    background-image: url("../../../img/logo-crescer.svg");
+    background-size: cover;
+    width: 90px;
+    height: 38px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+}
+/* Aqui quando a tela for maior que 600px */
+@media only screen and (min-width: 601px) {
+  .container-login {
+    background: url("../../../img/fantasy-wallpaper-1080p-For-Iphone-Wallpaper-HD\ cópia.svg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .content-login-left {
+    border-bottom: 110vh solid #ffffff;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    filter: drop-shadow(14px 0 15px rgba(0, 0, 0, 0.2));
+  }
+
+  .content-login-inside {
+    width: 425px;
+    height: 100vh;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .logo {
+    background-image: url("../../../img/Logo.svg");
+    background-size: cover;
+    width: 205px;
+    height: 211px;
+    margin: 12px;
+  }
+
+  .login-form {
+    width: 300px;
+    height: 220px;
+    background: red;
+  }
+
+  .logo-crescer {
+    background-image: url("../../../img/logo-crescer.svg");
+    background-size: cover;
+    width: 90px;
+    height: 38px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+
+  .button-login {
+    width: 309px;
+    height: 50px;
+    margin-top: 0;
+  }
+
+  .tempo-component .button-atualizar-tempo {
+    display: none;
+  }
+
+  .tempo-component .dados-wrapper {
+    justify-content: center;
+  }
+}

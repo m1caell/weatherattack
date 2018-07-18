@@ -1,0 +1,301 @@
+.dashboard {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+}
+.header-dashboard {
+  width: 100%;
+  height: 60px;
+  background-color: #2285a4;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+}
+
+.usuario-dashboard {
+  width: 260px;
+  height: 60px;
+  background-color: #1a6e89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome-dashboard {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #ffffff;
+  font-style: light;
+}
+
+.avatar-dashboard {
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  background: url("../../../img/avatar.png");
+}
+
+.center-header-dashboard {
+  flex: 1;
+}
+
+.controles-dashboard {
+  width: 70px;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content-controles {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.diagonal-controles {
+  height: 100%;
+  width: 35px;
+  background-color: #ffffff;
+  position: absolute;
+  left: -18px;
+  z-index: 1;
+  transform: skewX(-25deg);
+}
+
+.conteudo-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mensagem-controles,
+.notificacao-controles {
+  display: none;
+}
+
+.logout-controles {
+  width: 24.67px;
+  height: 18.08px;
+  position: relative;
+}
+
+.mensagem-controles {
+  background: url("../../../img/messageicon.svg");
+  background-size: 100% 100%;
+}
+
+.controles-dashboard a:hover {
+  filter: brightness(200%);
+}
+
+.numero-mensagens {
+  position: absolute;
+  /* background-color: #f66b04; */
+  border-radius: 50px;
+  width: 11px;
+  height: 11px;
+  font-size: 7px;
+  bottom: 11px;
+  left: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Roboto;
+  font-style: light;
+}
+
+.numero-notificacoes {
+  position: absolute;
+  /* background-color: #f66b04; */
+  border-radius: 50px;
+  width: 11px;
+  height: 11px;
+  font-size: 7px;
+  bottom: 10px;
+  left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Roboto;
+  font-style: light;
+}
+
+.notificacao-controles {
+  background: url("../../../img/notificacaoicon.svg");
+  background-size: 100% 100%;
+}
+
+.logout-controles {
+  background: url("../../../img/logouticon.svg");
+  background-size: 100% 100%;
+}
+
+/*Menu Esquerdo*/
+.menu-esquerda-dashboard {
+  padding-top: 60px;
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  background-color: #2285a4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 4px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.icone-home {
+  width: 20px;
+  height: 20px;
+  background: url("../../../img/home.png");
+  background-size: 100% 100%;
+  margin: 15px;
+}
+
+.icone-perfil {
+  width: 20px;
+  height: 20px;
+  background: url("../../../img/avatarbotao.png");
+  background-size: 100% 100%;
+  margin: 15px;
+}
+
+.icone-ranking {
+  width: 20px;
+  height: 20px;
+  background: url("../../../img/podium.png");
+  background-size: 100% 100%;
+  margin: 15px;
+}
+
+.icone-shop {
+  width: 20px;
+  height: 20px;
+  background: url("../../../img/shopping-cart.png");
+  background-size: 100% 100%;
+  margin: 15px;
+}
+
+.botoes-menu-esquerda-dashboard {
+  flex: 1;
+}
+
+.logo-dashboard {
+  width: 100%;
+  height: 212px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.logo-em-dashboard {
+  background: url("../../../img/Logo.svg");
+  background-size: 100% 100%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 12px;
+}
+
+.efeito-diagonal {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 50px;
+  top: -23px;
+  transform: skewY(-10deg);
+}
+
+.corporation {
+  width: 120px;
+  height: 19px;
+
+  font-family: Roboto;
+  font-style: light;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 8px;
+  text-align: center;
+
+  color: #949494;
+}
+
+.poderes-menu-esquerda-dashboard {
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botao a div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  color: #ffffff;
+  position: relative;
+}
+
+.botao a {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.botao:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.botao-ranking,
+.botao-shop,
+.botao-perfil {
+  display: none;
+}
+
+/*Conteudo Dashboard*/
+.direita-dashboard {
+  background-color: #efefef;
+  margin-left: 260px;
+  margin-top: 60px;
+}
+
+@keyframes fade {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(50deg);
+  }
+  75% {
+    transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.img-dash-poderes {
+  margin: 14px 15px 0 5px;
+  height: 30px;
+}
